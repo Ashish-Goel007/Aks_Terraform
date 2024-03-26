@@ -15,7 +15,7 @@
 #}
 
 variable "resource_group_name" {
-  default = "heydevops-rg"
+  default = "myrg"
 }
 
 variable "agent_count" {
@@ -31,7 +31,7 @@ variable "cluster_name" {
 }
 
 variable "location" {
-  default = "westus2"
+  default = "centralus"
 }
 
 variable "log_analytics_workspace_name" {
